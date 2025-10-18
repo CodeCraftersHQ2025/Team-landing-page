@@ -4,11 +4,40 @@
     <meta charset="UTF-8">
     <title>Team Landing Page</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
-        h2{text-alin: center;}
-        section{display:inline-block;}
-        .team-section { margin: 20px 0; }
-        .team-member { border: 1px solid #ccc; padding: 10px; margin: 10px 0; }
+        body {
+        font-family: Arial, san-serif;
+        height: 100vh;
+        margin: 0px;
+        padding:20px;
+        background-color:gray;
+        }
+        header{
+        text-align: center;
+        }
+        h2{
+        text-align: center;
+        }
+        .card{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 25px;
+        border-radius: 18px;
+        max-width: 1000px;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(25px) saturate (180%);
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+        transition: all 0.4s ease;
+        }
+        .card:hover{
+        transform: scale(1.05);
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 10px 50px rgba(255, 255, 255, 0.2);
+        }
+        footer{
+        text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -18,7 +47,7 @@
     
     <main>
         <h2>Team Members</h2>
-        <section id="team" class="team-section">
+        <section class="card">
                 <h3>Name: Joshua Mazaza</h3>
                 <p>Student ID: 2410123</p>
                 <p>Role: Team Leader</p>
@@ -27,17 +56,17 @@
         </section>
         <section class="card">
             <h3><strong>Name:</strong> Francis Njobvu</h3>
-            <p><strong>Student ID:</strong>2410362</p>
-            <p><strong>Role:<strong>#</p>
+            <p><strong>Student ID:</strong> 2410362</p>
+            <p><strong>Role:</strong> Designer</p>
             <p><strong>Short Bio:</strong> I am an Artist. Dreamer. Builder. Innovator. Turning ideas into code and visions into reality.</p>
-            <p><strong>Github Profile:</strong><a href="https://github.com/francisnjobvu23-debug">GitHub.com/francisnjobvu23-debug</a></p>
+            <p><strong>Github Profile:</strong> <a href="https://github.com/francisnjobvu23-debug">GitHub.com/francisnjobvu23-debug</a></p>
             </section>
-                 <section id="team" class="team-section">
+                 <section class="card">
             <h3><strong>Name:</strong> katendi kamenga</h3>
-            <p><strong>Student ID:</strong>2410432</p>
-            <p><strong>Role:<strong>#</p>
+            <p><strong>Student ID:</strong> 2410432</p>
+            <p><strong>Role:</strong> member</p>
             <p><strong>Short Bio:</strong> I am a simple girl in tech hoping to create a world where women in tech thrive.</p>
-            <p><strong>Github Profile:</strong><a href="https://github.com/kaykamenga56-debug">GitHub.com/kaykamenga56-debug</a></p>
+            <p><strong>Github Profile:</strong> <a href="https://github.com/kaykamenga56-debug">GitHub.com/kaykamenga56-debug</a></p>
             </section>
     </main>
     
